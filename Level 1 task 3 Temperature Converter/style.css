@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-image: url(img.jpg);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 400px ;
+    background-color: rgb(255, 255, 255)80%;
+    padding: 10px;
+    box-shadow: 0 20px 25px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+h2{
+    position:relative;
+    color:rgb(255, 255, 255);
+    background-color: black;
+    border-radius: 8px;
+    padding: 2px;
+}
+input{
+    width: 100%;
+    height: 50px;
+    border-radius: 8px;
+    border: 2px solid #6e6e6e;
+    outline: none;
+}
+.header{
+    background: rgba(26, 1, 1, 0.4);
+}
+.welcome-msg{
+            position: relative;
+            text-align: center;
+            font-family: monospace;
+            color: white;
+            top: 10px;
+            backface-visibility: visible;
+        }
+.welcome-msg h1{
+            font-size: 25px;
+            font-weight: 70;
+            letter-spacing: 5px;
+            backface-visibility: visible;
+        }
+.icon{
+    font-size: 20px;
+}
+h2{
+    font-size: 30px;
+    backface-visibility: visible;
+}
+h3{
+    font-size: 15px;
+    color: white;
+    backface-visibility: visible;
+}
+a{
+    color:white;
+    backface-visibility: visible;
+}
+.abc{
+    text-align: center;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 70px;
+}
+button{
+    background-color:rgb(53, 227, 233);
+    padding: 7px;
+}
